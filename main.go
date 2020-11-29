@@ -3,22 +3,51 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/gorilla/mux"
 	"log"
 	"net/http"
 )
 
 func main() {
+	fmt.Println("Rest API v2.0 - Mux Routers")
 	Articles = []Article{
-		Article{Title: "Hello", Desc: "Article Description", Content: "Article Content"},
-		Article{Title: "Hello 2", Desc: "Article Description", Content: "Article Content"},
+		Article{Id: "1", Title: "Hello", Desc: "Article Description", Content: "Article Content"},
+		Article{Id: "2", Title: "Hello 2", Desc: "Article Description", Content: "Article Content"},
 	}
 	handleRequests()
 }
 
 func handleRequests() {
-	http.HandleFunc("/", homePage)
-	http.HandleFunc("/articles", returnAllArticles)
-	log.Fatal(http.ListenAndServe(":10000", nil))
+
+	myRouter := mux.NewRouter().StrictSlash(true)
+	myRouter.HandleFunc("/", homePage)
+	myRouter.HandleFunc("/articles", returnAllArticles)
+	myRouter.HandleFunc("/article/{id}", returnSingleArticle)
+
+	//http.HandleFunc("/", homePage)
+	//http.HandleFunc("/articles", returnAllArticles)
+	log.Fatal(http.ListenAndServe(":10000", myRouter))
+}
+
+func returnSingleArticle(writer http.ResponseWriter, request *http.Request) {
+	//defer recoveryFunction(writer)
+	vars := mux.Vars(request)
+	key := vars["id"]
+	found := false
+	for _, article := range Articles {
+		if article.Id == key {
+			json.NewEncoder(writer).Encode(article)
+			found = true
+		}
+	}
+	if found == false {
+		writer.WriteHeader(404)
+	}
+
+}
+
+func recoveryFunction(writer http.ResponseWriter) {
+	fmt.Fprintf(writer, "panic triggered")
 }
 
 func homePage(writer http.ResponseWriter, request *http.Request) {
@@ -32,6 +61,7 @@ func returnAllArticles(w http.ResponseWriter, r *http.Request) {
 }
 
 type Article struct {
+	Id      string `json:"Id"`
 	Title   string `json:"Title"`
 	Desc    string `json:"desc"`
 	Content string `json:"content"`
