@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78dae115-50d8-40f4-94fb-f12dc72640da" name="Default Changelist" comment="" />
+    <list default="true" id="78dae115-50d8-40f4-94fb-f12dc72640da" name="Default Changelist" comment="initial" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +15,11 @@
     </option>
   </component>
   <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kw3Tdsc0smjrfTtP3xUW6yCBFU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,19 +50,27 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="959" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606657916265">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="959" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1606657916265" />
-    <state x="1360" y="259" key="FileChooserDialogImpl" timestamp="1606657986420">
+    <state x="1360" y="259" key="FileChooserDialogImpl" timestamp="1606659834296">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="1360" y="259" key="FileChooserDialogImpl/0.0.2048.1152@0.0.2048.1152" timestamp="1606657986420" />
-    <state x="1458" y="417" key="Github.ShareDialog" timestamp="1606659637489">
+    <state x="1360" y="259" key="FileChooserDialogImpl/0.0.2048.1152@0.0.2048.1152" timestamp="1606659834296" />
+    <state x="1458" y="417" key="Github.ShareDialog" timestamp="1606659846786">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="1458" y="417" key="Github.ShareDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1606659637489" />
+    <state x="1458" y="417" key="Github.ShareDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1606659846786" />
+    <state x="1426" y="224" key="Github.UntrackedFilesDialog" timestamp="1606659862666">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="1426" y="224" key="Github.UntrackedFilesDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1606659862666" />
     <state width="898" height="314" key="GridCell.Tab.0.bottom" timestamp="1606659770186">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
@@ -91,5 +103,9 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state width="898" height="314" key="GridCell.Tab.1.right/0.0.2048.1152@0.0.2048.1152" timestamp="1606659770186" />
+    <state x="1171" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606660099411">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="1171" y="252" key="Vcs.Push.Dialog.v2/0.0.2048.1152@0.0.2048.1152" timestamp="1606660099411" />
   </component>
 </project>
