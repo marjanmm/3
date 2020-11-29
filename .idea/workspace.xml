@@ -18,6 +18,9 @@
     </option>
   </component>
   <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -79,22 +82,22 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="1426" y="224" key="Github.UntrackedFilesDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1606659862666" />
-    <state width="449" height="254" key="GridCell.Tab.0.bottom" timestamp="1606660804938">
+    <state width="449" height="254" key="GridCell.Tab.0.bottom" timestamp="1606672142693">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="449" height="254" key="GridCell.Tab.0.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1606660804938" />
-    <state width="449" height="254" key="GridCell.Tab.0.center" timestamp="1606660804938">
+    <state width="449" height="254" key="GridCell.Tab.0.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1606672142693" />
+    <state width="449" height="254" key="GridCell.Tab.0.center" timestamp="1606672142693">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="449" height="254" key="GridCell.Tab.0.center/0.0.2048.1152@0.0.2048.1152" timestamp="1606660804938" />
-    <state width="449" height="254" key="GridCell.Tab.0.left" timestamp="1606660804938">
+    <state width="449" height="254" key="GridCell.Tab.0.center/0.0.2048.1152@0.0.2048.1152" timestamp="1606672142693" />
+    <state width="449" height="254" key="GridCell.Tab.0.left" timestamp="1606672142693">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="449" height="254" key="GridCell.Tab.0.left/0.0.2048.1152@0.0.2048.1152" timestamp="1606660804938" />
-    <state width="449" height="254" key="GridCell.Tab.0.right" timestamp="1606660804938">
+    <state width="449" height="254" key="GridCell.Tab.0.left/0.0.2048.1152@0.0.2048.1152" timestamp="1606672142693" />
+    <state width="449" height="254" key="GridCell.Tab.0.right" timestamp="1606672142693">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="449" height="254" key="GridCell.Tab.0.right/0.0.2048.1152@0.0.2048.1152" timestamp="1606660804938" />
+    <state width="449" height="254" key="GridCell.Tab.0.right/0.0.2048.1152@0.0.2048.1152" timestamp="1606672142693" />
     <state width="898" height="314" key="GridCell.Tab.1.bottom" timestamp="1606659770186">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
@@ -111,9 +114,29 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state width="898" height="314" key="GridCell.Tab.1.right/0.0.2048.1152@0.0.2048.1152" timestamp="1606659770186" />
+    <state x="396" y="40" key="MergeDialog" timestamp="1606671633809">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="396" y="40" key="MergeDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1606671633809" />
+    <state x="1217" y="280" key="MultipleFileMergeDialog" timestamp="1606671633817">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="1217" y="280" key="MultipleFileMergeDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1606671633817" />
+    <state x="1059" y="216" key="VCS.ChangeListViewerDialog" timestamp="1606671553470">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="1059" y="216" key="VCS.ChangeListViewerDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1606671553470" />
+    <state x="915" y="277" key="Vcs.Multiple.Commit.Info.Dialog.Key" timestamp="1606671540941">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="915" y="277" key="Vcs.Multiple.Commit.Info.Dialog.Key/0.0.2048.1152@0.0.2048.1152" timestamp="1606671540941" />
     <state x="1171" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606660252679">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="1171" y="252" key="Vcs.Push.Dialog.v2/0.0.2048.1152@0.0.2048.1152" timestamp="1606660252679" />
+    <state x="1450" y="431" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1606671636053">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="1450" y="431" key="git4idea.rebase.GitUnstructuredEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1606671636053" />
   </component>
 </project>
